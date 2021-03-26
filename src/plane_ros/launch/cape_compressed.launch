@@ -1,0 +1,7 @@
+<launch>
+  <node name="CAPE" pkg="plane_ros" type="cape_node" required="true" clear_params="true" output="screen">
+        <param name="image_transport" type="str" value="compressed" />
+        <!-- <remap from="colour" to="camera/rgb/image_rect_color"/> -->
+        <!-- <remap from="depth" to="camera/depth/image_rect_raw"/> -->
+  </node>
+</launch>
